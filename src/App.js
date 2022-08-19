@@ -38,7 +38,7 @@ const App = () => {
   }
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Hello Countries</h1>
       <form>
         <input value={search} onChange={searchHandler} onClick={()=>cleanInput(setSearch)}/>
         <button type="submit" onClick={searchBtnHandler}>search</button>
